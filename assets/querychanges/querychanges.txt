@@ -1,0 +1,42 @@
+
+bizbrainz2020@gmail.com
+bb2021@tech
+
+admin@admin.com
+BB@admin
+
+BlueWhale@1978
+
+superadmin@doctorss.in
+kamineni@admin.com
+kamal@lab.com
+venkat@gmail.com
+somesh@gmail.com
+kantharaj@billing.com
+
+date:13-03-2021
+------------------
+ALTER TABLE `doctors_time_schedule` ADD `patient_time` VARCHAR(120) NULL AFTER `shift_tokens`;
+ALTER TABLE `bookings` ADD `time_slot` VARCHAR(30) NOT NULL AFTER `status_id`;
+ALTER TABLE `bookings` DROP `datetime_start`, DROP `datetime_end`;
+
+
+date:15-03-2021 :
+------------------
+ALTER TABLE `doctors_time_schedule` DROP `shift_tokens`;
+ALTER TABLE `doctors_time_schedule` ADD `weekday` ENUM('Monday','Tuesday') NOT NULL AFTER `doctors_id`;
+ALTER TABLE `doctors_time_schedule` DROP `time_schedule_date`, DROP `shift_id`;
+ALTER TABLE `doctors_time_schedule` CHANGE `weekday` `weekday` ENUM('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `bookings` CHANGE `appointment_schedule_id` `appointment_date` DATE NOT NULL;
+
+
+
+
+'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'
+
+date:16-03-2021 :
+------------------
+
+date:19-03-2021:
+----------------
+ALTER TABLE `user_details` CHANGE `gender` `gender` ENUM('Male','Female') CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;

@@ -1,0 +1,18 @@
+Added Columns:-
+--------------
+appointment_id added in prescription Table.
+appointment_type added in doctors_time_schedule Table
+Removed Columns:-
+----------------
+Booking Time in Bookings Table.
+
+
+
+
+16-03-2021:-
+--------------
+ALTER TABLE `doctor_details` ADD `consultation_fee` DECIMAL(11) NOT NULL AFTER `specialization_id`;
+
+17-03-2021:-
+------------
+ALTER TABLE `prescription` ADD `prescription_photo` VARCHAR(111) NOT NULL AFTER `diagnosis`;

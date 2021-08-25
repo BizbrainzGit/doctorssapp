@@ -1,0 +1,119 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+ /*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+.main-menu > ul > .active span >a {
+    color: #e74e84;
+}
+
+#results {
+    padding: 20px 0;
+    color: #fff;
+    /*background: #3f4079;*/
+    background-color: #32aed9;
+}
+
+.search_bar_list input[type='submit'] {
+    position: absolute;
+    right: -1px;
+    color: #fff;
+    font-weight: 600;
+    top: 0;
+    border: 0;
+    padding: 0 15px;
+    height: 40px;
+    cursor: pointer;
+    -webkit-border-radius:  3px 3px ;
+    -moz-border-radius:  3px 3px ;
+    -ms-border-radius: 3px 3px ;
+    border-radius: 3px 3px ;
+    background-color: #ed7da4;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    background-color: #3f4079;
+    color: #fff;
+}
+
+
+footer ul li a {
+    color: #fff;
+}
+
+footer h5 {
+    
+    color: #fff;
+  
+}
+
+footer ul.contacts li a i {
+    margin-right: 10px;
+    color: #32aed9;
+}
+
+.follow_us ul li a i {
+    color: #32aed9;
+}
+
+footer ul li a:hover {
+    color: #32aed9;
+}
+
+ul#additional_links {
+    color: #fff;
+}
+
+footer #copy {
+    color: #fff;
+}
+
+
+#breadcrumb {
+    background-color: #32aed9;
+    padding: 25px 0;
+    line-height: 1;
+    color: #fff;
+}

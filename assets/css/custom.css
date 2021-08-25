@@ -1,0 +1,357 @@
+  /*.wizard > .content > .body {*/
+  position: static;
+}
+
+table.dataTable thead > tr {
+   background-color: #4D774E;
+   color: #ffffff !important;
+}
+
+.wizard > .content > .body select.error {
+    background: #fbe3e4;
+    border: 1px solid #f39a93;
+    color: #e94437;
+}
+
+.form-label {
+  margin-left:2px;
+  padding-left: 0;
+}
+input.error {
+    background: #fbe3e4;
+    border: 1px solid #f39a93;
+    color: #e94437;
+}
+.error{
+    color: #e94437;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/*.select2-container{
+  
+   
+}*/
+
+/*.select2-container--default .select2-selection--multiple .select2-selection__rendered{
+    display: block;
+    width: 100%;
+    border: 1px solid #f6f2f2;
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: auto;
+    padding: 0.875rem 0.875rem;
+}*/
+
+
+.demoweb {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+   border-radius: 5px;
+}
+
+.demoweb:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+ .css-serial {
+  counter-reset: serial-number;  /* Set the serial number counter to 0 */
+}
+
+.css-serial td:first-child:before {
+  counter-increment: serial-number;  /* Increment the serial number counter */
+  content: counter(serial-number);  /* Display the counter */
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.subpackage:nth-child(even) {
+    background-color: #eee;
+}
+.subpackage{
+  padding: 10px 20px 10px 20px;
+}
+.card-packages{
+     background-color: #fafafa;
+     overflow: hidden;
+}
+.card-packages ohver: .card-packages{
+  text-shadow: 0px 0px black;
+}
+.card-packagehead{
+  background-color: #4e88f5;
+}
+
+.card-packages:hover {
+  
+  box-shadow: 0px 0px 20px 20px #c3c7c4;
+}
+
+ .receipt-header{
+                          border-bottom: 1px solid;
+                          padding: 10px 0px 10px 0px;
+                       }
+                       .receipt_heading{
+                            padding: 25px 0px 0px 0px;
+                       }
+                       .receipt_line1{
+                           padding: 5px 0px 5px 0px;
+                       }
+                       .receipt_line2{
+                          padding: 5px 0px 5px 0px;  
+                       }
+                       .border_bottom{
+                        border-bottom: 1px solid;
+                       }
+
+
+ .requried_class{
+  color: red;
+}
+                      
+ .navbar .navbar-brand-wrapper {
+      background-color: #cfedfc;
+    }
+  .sidebar {
+     /* background-color: #164A41;  */
+     background-color: #cfedfc;
+
+     }
+
+  .sidebar .nav .nav-item .nav-link i.menu-icon {
+     /* color: #ac0e58;*/
+      color: #000;
+      background-color: #fff;
+      padding: 3px;
+      border-radius: 50%;
+ }   
+
+ .sidebar .nav .nav-item .nav-link {
+        color: #2d2d86;
+        font-weight: 700;
+  }
+
+  .sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link {
+    color: #fff;
+    /*background: #1a1c29;*/
+     font-weight: 700;
+    background-color:#ac0e58; 
+    border-radius: 1.313rem 0rem 0rem 1.313rem;
+}
+
+.sidebar .nav:not(.sub-menu) > .nav-item:active > .nav-link {
+  border-radius: 1.313rem 0rem 0rem 1.313rem;
+  background: #2d2d86;
+  color: #000000;
+}
+.sidebar .nav .nav-item.active > .nav-link .menu-title{
+   color: #fff;
+    font-weight: 700;
+}
+.sidebar .nav .nav-item.active >  .nav-link i.menu-icon {
+  color: #000;
+
+}
+
+.sidebar .nav .nav-item.active {
+    background: #2d2d86;
+}
+
+  .navbar .navbar-brand-wrapper .navbar-toggler {
+      color:#ED1956;
+   
+}
+
+.navbar .navbar-menu-wrapper {
+       background-color: #f0f5f5;
+  }
+
+  .footer-wrapper .footer {
+    background:none;
+    color: #2d2d86;
+     }
+
+    .content-wrapper {
+    /* background: #9D8D9F; */
+    background: #F7F9FB; 
+
+  }
+
+.sidebar .nav:not(.sub-menu) > .nav-item:active > .nav-link {
+    border-radius: 1.313rem 0rem 0rem 1.313rem;
+    background: #2d2d86;
+}
+
+  .footer-wrapper {
+       background-color: #f0f5f5;
+    
+}
+
+.sidebar .nav .nav-item .nav-link i.menu-arrow {
+    color:#ED1956;
+}
+.footer-wrapper .footer a {
+    color: #2d2d86;
+    font-size: inherit;
+}
+
+.sidebar .nav.sub-menu {
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    padding: 0.25rem 0 0 2.8rem;
+    background: #2d2d86;
+    border-radius: 0rem 0rem 0rem 1.313rem;
+}
+
+.sidebar .nav .nav-item.nav-profile .profile-name .name {
+    font-size: 13px;
+    color: #ED1956;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+/*.auth .auth-form-light {
+    background:#A3BCB6;
+    color: #ffffff;
+}*/
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #164A41;
+    border-color:#164A41;
+}
+
+.btn-info, .btn-info:hover{
+    color: #fff;
+    background-color: #00cccc;
+    border-color:#00cccc;
+}
+
+.dataTables_wrapper .dataTable .btn{
+	padding: 5px;
+  margin: 2px;
+}
+
+.dataTables_wrapper .dataTable .btn{
+	border-radius: 50%;
+}
+
+.btn-primary:hover, .wizard > .actions a:hover{
+	  color: #fbbc06;
+    background-color: #164A41;
+    border-color: #164A41;
+}
+
+
+.pagination .page-item.active .page-link, .jsgrid .jsgrid-pager .page-item.active .page-link, .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button .page-link, .jsgrid .jsgrid-pager .active.jsgrid-pager-page .page-link, .pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item.active a, .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button a, .pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item.active a, .jsgrid .jsgrid-pager .active.jsgrid-pager-page a, .pagination .page-item:hover .page-link, .jsgrid .jsgrid-pager .page-item:hover .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:hover .page-link, .pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:hover a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover a, .pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:hover a, .jsgrid .jsgrid-pager .jsgrid-pager-page:hover a, .pagination .page-item:focus .page-link, .jsgrid .jsgrid-pager .page-item:focus .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:focus .page-link, .pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:focus a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus a, .pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:focus a, .jsgrid .jsgrid-pager .jsgrid-pager-page:focus a, .pagination .page-item:active .page-link, .jsgrid .jsgrid-pager .page-item:active .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:active .page-link, .pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:active a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active a, .pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:active a, .jsgrid .jsgrid-pager .jsgrid-pager-page:active a {
+    /*background: #4D774E;*/
+    background: #52b3bf;
+    border-color: #4D774E;
+    color: #ffffff;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover  {
+    background: #164A41;
+    color: #ffffff;
+    cursor: default;
+}
+.wizard > .steps .done a,.wizard > .steps .done a:hover {
+    background: #164A41;
+    color: #ffffff;
+}
+.wizard > .steps .current a:active {
+    background: #164A41;
+    color: #ffffff;
+    cursor: default;
+}
+
+ .wizard > .actions a {
+    color: #fbbc06;
+    background-color: #164A41;
+    border-color: #164A41;
+}
+
+.wizard > .steps .error a {
+    background: #e94437;
+    color: #fff;
+}
+
+.card-backgroundcolor{
+  background-color: #51DBFF;
+}
+.text-success{
+  color: #164A41;
+}
+
