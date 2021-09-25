@@ -23,8 +23,8 @@ public function ConnectionNewDB()
 {   
      $servername = "localhost";
      $username = "root";
-     $password = "BBtpl@4321w";
-     $dbname ="babutest1";
+     $password = "";//BBtpl@4321w
+     $dbname ="doctorss_master";//babutest1
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	// Check connection
