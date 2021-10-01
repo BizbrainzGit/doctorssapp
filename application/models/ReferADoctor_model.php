@@ -8,7 +8,7 @@ class ReferADoctor_model extends Eloquent {
     public $timestamps = false;
     protected $table = "refer_a_doctor"; // table name
     public $primaryKey = 'id';
-    protected $fillable = ['refered_by_doctor_id','refered_to_doctor_id','refered_patient_id','created_ip','created_by','created_on','modified_ip','modified_by','modified_on'];
+    protected $fillable = ['refered_by_doctor_id','refered_to_doctor_id','refered_patient_id','created_ip','created_by','created_on','modified_ip','modified_by','modified_on','refered_to_specializations_id','refered_to_doctor_name','refered_to_clinic_name','refered_to_phone_number'];
    
 
 

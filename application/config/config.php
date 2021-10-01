@@ -26,7 +26,7 @@ ini_set('session.gc_divisor',100);
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'doctorsnew';
+$config['base_url'] = 'doctorssapp';
 
 /*
 |--------------------------------------------------------------------------
