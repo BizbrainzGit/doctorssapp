@@ -1,21 +1,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
 
-
-RewriteCond %{REQUEST_URI} ^system.*
-
-RewriteBase /doctorssapp
 RewriteCond $1 !^(index\.php|(.*).swf|assets|forums|images|css|downloads|jquery|js|robots\.txt|favicon\.ico)
-
-
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ ./index.php?$1 [L,QSA]
 </IfModule>
 
-<IfModule !mod_rewrite.c>
-
-
-    ErrorDocument 404 /index.php
-</IfModule>
