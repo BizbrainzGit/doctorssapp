@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-Options +FollowSymlinks -Indexes
+
 RewriteEngine on
 
 RewriteCond $1 !^(index\.php|(.*).swf|assets|forums|images|css|downloads|jquery|js|robots\.txt|favicon\.ico)
